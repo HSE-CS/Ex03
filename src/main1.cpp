@@ -34,14 +34,14 @@ int main() {
         time_t start = clock();
         // выполняем сортировку, используя функцию qsort
         qsort(arr, l*i, sizeof(int), comp);
-        fout << l*i << " " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "  ";
+        fout << l*i << " " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << " ";
         // снова засекаем время
         start = clock();
         // выполняем сортировку, используя алгоритм С++
         sort(arr_copy, arr_copy + l*i);
         fout << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-        
     }
+    fout << "\nqsort в С работает быстрее чем в С++\nОба графика линейны";
     fout.close();
     return 0;
 }
