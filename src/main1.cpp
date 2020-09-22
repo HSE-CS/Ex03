@@ -1,28 +1,37 @@
 #include <algorithm>
-#include <iostream>
-#include <cstdlib>
 #include <ctime>
+#include <fstream>
 #include "task1.h"
 
-using namespace std;
-
 int main() {
-    int arr[LARGE_SIZE];
-    int arr_copy[LARGE_SIZE];
-    // Рандомизация по таймеру
-    srand(time(nullptr));
-    // генерируем случайные данные
-    generate( arr, arr + LARGE_SIZE, rnd() );
-    copy( arr, arr + LARGE_SIZE, arr_copy );
-    // засекаем время
-    time_t start = clock();
-    // выполняем сортировку, используя функцию qsort
-    qsort( arr, LARGE_SIZE, sizeof( int ), comp );
-    cout << "C quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
-    // снова засекаем время
-    start = clock();
-    // выполняем сортировку, используя алгоритм С++
-    sort( arr_copy, arr_copy + LARGE_SIZE );
-    cout << "C++ quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
+    int sort_size = 100;
+    int *arr;
+    int *arr_copy;
+
+    ofstream file;
+    file.open("../data/results.txt");
+
+    for(int i = 0; i < 50; i++) {
+        if (i % 10 == 0) sort_size *= 10;
+        arr = new int[sort_size];
+        arr_copy = new int[sort_size];
+        // rand
+        srand(time(nullptr));
+        generate( arr, arr + sort_size, rnd() );
+        copy( arr, arr + sort_size, arr_copy );
+        // C
+        time_t start = clock();
+        qsort( arr, sort_size, sizeof( int ), comp );
+        file << i + 1 << ")" << sort_size << " C: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\t";
+        // C++
+        start = clock();
+        sort( arr_copy, arr_copy + sort_size );
+        file << "C++: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
+    }
+
+    delete [] arr;
+    delete [] arr_copy;
+    file.close();
+
     return 0;
 }

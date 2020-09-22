@@ -3,7 +3,9 @@
 
 #include <cstdlib>
 
-const size_t LARGE_SIZE = 100000;
+using namespace std;
+
+const size_t LARGE_SIZE = 10000000;
 
 struct rnd {
     int operator()() {
