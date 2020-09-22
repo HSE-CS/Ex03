@@ -6,8 +6,6 @@
 
 using namespace std;
 
-const size_t LARGE_SIZE = 100000;
-
 int main() {
     int arr[LARGE_SIZE];
     int arr_copy[LARGE_SIZE];
@@ -39,7 +37,7 @@ int main() {
         cout << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
     }
 
-    cout << "SIZE-----------" << endl;
+    cout << "SIZE" << endl;
     for (auto el : size)
         cout << el << endl;
 
