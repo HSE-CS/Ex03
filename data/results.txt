@@ -1,0 +1,152 @@
+SIZE: 100
+C quick-sort time elapsed: 2.1e-05
+C++ quick-sort time elapsed: 1e-05
+SIZE: 120
+C quick-sort time elapsed: 1.5e-05
+C++ quick-sort time elapsed: 6e-06
+SIZE: 144
+C quick-sort time elapsed: 2e-05
+C++ quick-sort time elapsed: 8e-06
+SIZE: 172
+C quick-sort time elapsed: 1.8e-05
+C++ quick-sort time elapsed: 1.1e-05
+SIZE: 206
+C quick-sort time elapsed: 3.4e-05
+C++ quick-sort time elapsed: 1.3e-05
+SIZE: 247
+C quick-sort time elapsed: 4.3e-05
+C++ quick-sort time elapsed: 2.3e-05
+SIZE: 296
+C quick-sort time elapsed: 4.4e-05
+C++ quick-sort time elapsed: 1.7e-05
+SIZE: 355
+C quick-sort time elapsed: 4.7e-05
+C++ quick-sort time elapsed: 2.2e-05
+SIZE: 426
+C quick-sort time elapsed: 5.6e-05
+C++ quick-sort time elapsed: 2.2e-05
+SIZE: 511
+C quick-sort time elapsed: 7.5e-05
+C++ quick-sort time elapsed: 3e-05
+SIZE: 613
+C quick-sort time elapsed: 0.000119
+C++ quick-sort time elapsed: 3.6e-05
+SIZE: 735
+C quick-sort time elapsed: 0.000108
+C++ quick-sort time elapsed: 5.2e-05
+SIZE: 882
+C quick-sort time elapsed: 0.000138
+C++ quick-sort time elapsed: 5.4e-05
+SIZE: 1058
+C quick-sort time elapsed: 0.000172
+C++ quick-sort time elapsed: 6.2e-05
+SIZE: 1269
+C quick-sort time elapsed: 0.000171
+C++ quick-sort time elapsed: 7.3e-05
+SIZE: 1522
+C quick-sort time elapsed: 0.000256
+C++ quick-sort time elapsed: 9.8e-05
+SIZE: 1826
+C quick-sort time elapsed: 0.000317
+C++ quick-sort time elapsed: 0.000138
+SIZE: 2191
+C quick-sort time elapsed: 0.000339
+C++ quick-sort time elapsed: 0.000145
+SIZE: 2629
+C quick-sort time elapsed: 0.000424
+C++ quick-sort time elapsed: 0.000187
+SIZE: 3154
+C quick-sort time elapsed: 0.000533
+C++ quick-sort time elapsed: 0.000238
+SIZE: 3784
+C quick-sort time elapsed: 0.000595
+C++ quick-sort time elapsed: 0.0003
+SIZE: 4540
+C quick-sort time elapsed: 0.000745
+C++ quick-sort time elapsed: 0.000359
+SIZE: 5448
+C quick-sort time elapsed: 0.00099
+C++ quick-sort time elapsed: 0.000438
+SIZE: 6537
+C quick-sort time elapsed: 0.001106
+C++ quick-sort time elapsed: 0.000521
+SIZE: 7844
+C quick-sort time elapsed: 0.001479
+C++ quick-sort time elapsed: 0.000606
+SIZE: 9412
+C quick-sort time elapsed: 0.001773
+C++ quick-sort time elapsed: 0.00079
+SIZE: 11294
+C quick-sort time elapsed: 0.001887
+C++ quick-sort time elapsed: 0.000876
+SIZE: 13552
+C quick-sort time elapsed: 0.002159
+C++ quick-sort time elapsed: 0.001149
+SIZE: 16262
+C quick-sort time elapsed: 0.00261
+C++ quick-sort time elapsed: 0.001367
+SIZE: 19514
+C quick-sort time elapsed: 0.003451
+C++ quick-sort time elapsed: 0.001434
+SIZE: 23416
+C quick-sort time elapsed: 0.004168
+C++ quick-sort time elapsed: 0.002069
+SIZE: 28099
+C quick-sort time elapsed: 0.004995
+C++ quick-sort time elapsed: 0.002128
+SIZE: 33718
+C quick-sort time elapsed: 0.004873
+C++ quick-sort time elapsed: 0.002448
+SIZE: 40461
+C quick-sort time elapsed: 0.006659
+C++ quick-sort time elapsed: 0.002775
+SIZE: 48553
+C quick-sort time elapsed: 0.00751
+C++ quick-sort time elapsed: 0.003399
+SIZE: 58263
+C quick-sort time elapsed: 0.010535
+C++ quick-sort time elapsed: 0.004571
+SIZE: 69915
+C quick-sort time elapsed: 0.012656
+C++ quick-sort time elapsed: 0.005187
+SIZE: 83898
+C quick-sort time elapsed: 0.013787
+C++ quick-sort time elapsed: 0.006327
+SIZE: 100677
+C quick-sort time elapsed: 0.018506
+C++ quick-sort time elapsed: 0.008709
+SIZE: 120812
+C quick-sort time elapsed: 0.024461
+C++ quick-sort time elapsed: 0.010709
+SIZE: 144974
+C quick-sort time elapsed: 0.027745
+C++ quick-sort time elapsed: 0.012329
+SIZE: 173968
+C quick-sort time elapsed: 0.02896
+C++ quick-sort time elapsed: 0.015098
+SIZE: 208761
+C quick-sort time elapsed: 0.035882
+C++ quick-sort time elapsed: 0.016642
+SIZE: 250513
+C quick-sort time elapsed: 0.044593
+C++ quick-sort time elapsed: 0.019949
+SIZE: 300615
+C quick-sort time elapsed: 0.047945
+C++ quick-sort time elapsed: 0.024951
+SIZE: 360738
+C quick-sort time elapsed: 0.059895
+C++ quick-sort time elapsed: 0.030013
+SIZE: 432885
+C quick-sort time elapsed: 0.071428
+C++ quick-sort time elapsed: 0.037511
+SIZE: 519462
+C quick-sort time elapsed: 0.084729
+C++ quick-sort time elapsed: 0.0437
+SIZE: 623354
+C quick-sort time elapsed: 0.10077
+C++ quick-sort time elapsed: 0.052393
+SIZE: 748024
+C quick-sort time elapsed: 0.117152
+C++ quick-sort time elapsed: 0.062236
+
+Вывод: синяя линия отображает работу функции на C++, оранжевая - на С, по графику видно, что в C++ функция работает в два раза быстрее. 
