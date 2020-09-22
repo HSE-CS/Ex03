@@ -1,11 +1,13 @@
-//
-// Created by Александр Грачев on 22.09.2020.
-//
-
+#include <algorithm>
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
 #include <algorithm>
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+
 
 using namespace std;
 
