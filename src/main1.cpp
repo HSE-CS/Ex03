@@ -17,7 +17,6 @@ int main() {
 
 	for (int i = 0; i < iter; i++) {
 
-		// Рандомизация по таймеру
 		srand(time(nullptr));
 		SIZE = 2000 * (i + 1);
 		// генерируем случайные данные
@@ -28,14 +27,12 @@ int main() {
 		// выполняем сортировку, используя функцию qsort
 		qsort( arr, SIZE, sizeof( int ), comp );
 		output_qsort[i] = static_cast<double>( clock() - start ) / CLOCKS_PER_SEC;
-//		cout << "C quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
 
 		// снова засекаем время
 		start = clock();
 		// выполняем сортировку, используя алгоритм С++
 		sort( arr_copy, arr_copy + SIZE );
 		output_sort[i] = static_cast<double>( clock() - start ) / CLOCKS_PER_SEC;
-//		cout << "C++ quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
 	}
 
 	cout << "C quick-sort time elapsed: ";
