@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../include/task1.h
+cstdlib
+-
 
 /home/toliman/Projects/HSE-CS/EX03/Ex03/src/main1.cpp
 algorithm

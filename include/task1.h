@@ -5,6 +5,8 @@
 #ifndef EX03_TASK1_H
 #define EX03_TASK1_H
 
+#include <cstdlib>
+
 
 struct rnd {
     int operator()() {
