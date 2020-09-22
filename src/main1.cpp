@@ -9,7 +9,7 @@ int main() {
     int razmer = 0;
     // Рандомизация по таймеру
     ofstream filik;
-    filik.open ("D:\GIT\Ex03\data\result.txt")
+    filik.open("D:/GIT/Ex03/data/result.txt");
 
     for (int i = 0; i < 50; i++)
     {
