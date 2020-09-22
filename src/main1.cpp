@@ -30,7 +30,7 @@ int main() {
         cnt++;
     }
 
-    for (int i = 0; i < 75; ++i) {
+    for (int i = 0; i < 20; ++i) {
         int arr[sizes[i]];
         int arr_copy[sizes[i]];
         // Рандомизация по таймеру
@@ -50,7 +50,6 @@ int main() {
         sort(arr_copy, arr_copy + sizes[i]);
         cout << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
     }
-    
 
     return 0;
 }
