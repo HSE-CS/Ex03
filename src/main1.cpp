@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const size_t LARGE_SIZE = 100000;
+const size_t LARGE_SIZE = 1000000;
 
 struct rnd {
     int operator()() {
@@ -38,5 +38,6 @@ int main() {
         sort(arr_copy, arr_copy + LARGE_SIZE);
         file <<  static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
     }
+    file.close();
     return 0;
 }
