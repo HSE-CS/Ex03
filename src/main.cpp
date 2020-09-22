@@ -19,26 +19,26 @@ struct rnd {
 
 
 int main() {
-
+    int l = 1234;
     int arr[LARGE_SIZE];
     int arr_copy[LARGE_SIZE];
+    // Рандомизация по таймеру
+    srand(time(nullptr));
+    // генерируем случайные данные
+    generate(arr, arr + LARGE_SIZE, rnd());
     ofstream fout;
     fout.open("C:\\Users\\nikit\\source\\repos\\ex03\\ex03\\results.txt");
-    for (int i = 0; i < 50; i++) {
-        // Рандомизация по таймеру
-        srand(time(nullptr));
-        // генерируем случайные данные
-        generate(arr, arr + LARGE_SIZE, rnd());
-        copy(arr, arr + LARGE_SIZE, arr_copy);
+    for (int i = 0; i < 50; i++){
+        copy(arr, arr + l*i, arr_copy);
         // засекаем время
         time_t start = clock();
         // выполняем сортировку, используя функцию qsort
-        qsort(arr, LARGE_SIZE, sizeof(int), comp);
-        fout <<i<<" " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "  ";
+        qsort(arr, l*i, sizeof(int), comp);
+        fout << l*i << " " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "  ";
         // снова засекаем время
         start = clock();
         // выполняем сортировку, используя алгоритм С++
-        sort(arr_copy, arr_copy + LARGE_SIZE);
+        sort(arr_copy, arr_copy + l*i);
         fout << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
         
     }
