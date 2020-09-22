@@ -34,11 +34,12 @@ int main() {
         // генерируем случайные данные
         generate( arr, arr + (i * 1000), rnd() );
         copy( arr, arr + (i * 1000), arr_copy );
+        file <<  (i * 1000) << ";";
         // засекаем время
         time_t start = clock();
         // выполняем сортировку, используя функцию qsort
         qsort( arr, (i * 1000), sizeof( int ), comp );
-        file << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
+        file << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << ";";
         // снова засекаем время
         start = clock();
         // выполняем сортировку, используя алгоритм С++
