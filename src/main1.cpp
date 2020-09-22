@@ -50,6 +50,7 @@ int main() {
         sort(arr_copy, arr_copy + sizes[i]);
         cout << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
     }
+    
 
     return 0;
 }
