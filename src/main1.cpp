@@ -18,7 +18,6 @@ struct rnd {
 int main() {
     int arr[LARGE_SIZE];
     int arr_copy[LARGE_SIZE];
-	int c = 0;
 	
 	
     // Рандомизация по таймеру
