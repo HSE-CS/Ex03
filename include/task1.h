@@ -1,11 +1,12 @@
+#include <algorithm>
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#ifndef TASK1_H
+#define TASK1_H
 
-const size_t LARGE_SIZE = 100000;
-const size_t STEP = 5000;
-
-struct rnd {
-    int operator()() {
-        return rand() % LARGE_SIZE;
-    }
-};
+using namespace std;
 
 int comp(const void* a, const void* b);
+
+#endif
