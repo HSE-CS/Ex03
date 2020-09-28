@@ -10,19 +10,19 @@ using namespace std;
 int main() {
 	int arr[LARGE_SIZE];
 	int arr_copy[LARGE_SIZE];
-	// Рандомизация по таймеру
+	// ГђГ Г­Г¤Г®Г¬ГЁГ§Г Г¶ГЁГї ГЇГ® ГІГ Г©Г¬ГҐГ°Гі
 	srand(time(nullptr));
-	// генерируем случайные данные
+	// ГЈГҐГ­ГҐГ°ГЁГ°ГіГҐГ¬ Г±Г«ГіГ·Г Г©Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ
 	generate(arr, arr + LARGE_SIZE, rnd());
 	copy(arr, arr + LARGE_SIZE, arr_copy);
-	// засекаем время
+	// Г§Г Г±ГҐГЄГ ГҐГ¬ ГўГ°ГҐГ¬Гї
 	time_t start = clock();
-	// выполняем сортировку, используя функцию qsort
+	// ГўГ»ГЇГ®Г«Г­ГїГҐГ¬ Г±Г®Г°ГІГЁГ°Г®ГўГЄГі, ГЁГ±ГЇГ®Г«ГјГ§ГіГї ГґГіГ­ГЄГ¶ГЁГѕ qsort
 	qsort(arr, LARGE_SIZE, sizeof(int), comp);
 	cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-	// снова засекаем время
+	// Г±Г­Г®ГўГ  Г§Г Г±ГҐГЄГ ГҐГ¬ ГўГ°ГҐГ¬Гї
 	start = clock();
-	// выполняем сортировку, используя алгоритм С++
+	// ГўГ»ГЇГ®Г«Г­ГїГҐГ¬ Г±Г®Г°ГІГЁГ°Г®ГўГЄГі, ГЁГ±ГЇГ®Г«ГјГ§ГіГї Г Г«ГЈГ®Г°ГЁГІГ¬ Г‘++
 	sort(arr_copy, arr_copy + LARGE_SIZE);
 	cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
 	return 0;
