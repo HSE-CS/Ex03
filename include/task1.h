@@ -7,7 +7,7 @@
 #include <cstdlib>
 #include <ctime>
 
-const size_t LARGE_SIZE = 100000;
+const size_t LARGE_SIZE = 1000000;
 
 int comp(const void* a, const void* b);
 

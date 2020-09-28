@@ -11,28 +11,45 @@ using namespace std;
 
 int main()
 {
-    int arr[LARGE_SIZE];
-    int arr_copy[LARGE_SIZE];
+    double data[51][3];
+    int j = 0;
+    for (int i = 2000; i <= LARGE_SIZE;)
+    {
+        int* arr = (int*)malloc(sizeof(int) * i);
+        int* arr_copy = (int*)malloc(sizeof(int) * i);
+        data[j][0] = i;
 
-    // Рандомизация по таймеру
-    srand(time(nullptr));
+        srand(time(nullptr));
 
-    // генерируем случайные данные
-    generate(arr, arr + LARGE_SIZE, rnd());
-    copy(arr, arr + LARGE_SIZE, arr_copy);
+        // генерируем случайные данные
+        generate(arr, arr + i, rnd());
+        copy(arr, arr + i, arr_copy);
 
-    // засекаем время
-    time_t start = clock();
 
-    // выполняем сортировку, используя функцию qsort
-    qsort(arr, LARGE_SIZE, sizeof(int), comp);
-    cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+        time_t start = clock();
 
-    // снова засекаем время
-    start = clock();
 
-    // выполняем сортировку, используя алгоритм С++
-    sort(arr_copy, arr_copy + LARGE_SIZE);
-    cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+        qsort(arr, i, sizeof(int), comp);
+        data[j][1] = static_cast<double>(clock() - start) / CLOCKS_PER_SEC;
+        // cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+
+         // снова засекаем время
+        start = clock();
+
+        // выполняем сортировку, используя алгоритм С++
+        sort(arr_copy, arr_copy + i);
+        data[j][2] = static_cast<double>(clock() - start) / CLOCKS_PER_SEC;
+        //cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+
+        if (i == 2000)
+            i = 20000;
+        else
+            i += 20000;
+
+        j++;
+    }
+
+    for (int i = 0; i <= 50; i++)
+        cout << "N: " << data[i][0] << "\t" << "Qs: " << data[i][1] << "\t" << "S: " << data[i][2] << "\n";
     return 0;
 }
