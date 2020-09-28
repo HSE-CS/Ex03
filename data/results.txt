@@ -1,101 +1,52 @@
-Из графика видно, что при одинаковых размерах массива функция qsort работает быстрее, чем алгоритм C++ sort. Хоть и средняя сложность у обоих O(n*logn).
-Array size: 1000 C quick-sort time elapsed: 0 C++ quick-sort time elapsed: 0
-Array size: 2000 C quick-sort time elapsed: 0.001 C++ quick-sort time elapsed: 0.001
-Array size: 3000 C quick-sort time elapsed: 0.001 C++ quick-sort time elapsed: 0.002
-Array size: 4000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.002
-Array size: 5000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 6000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 7000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 8000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.003
-Array size: 9000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 10000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 11000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 12000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 13000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 14000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 15000 C quick-sort time elapsed: 0.002 C++ quick-sort time elapsed: 0.003
-Array size: 16000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.003
-Array size: 17000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 18000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 19000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 20000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.005
-Array size: 21000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.005
-Array size: 22000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.004
-Array size: 23000 C quick-sort time elapsed: 0.003 C++ quick-sort time elapsed: 0.005
-Array size: 24000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.005
-Array size: 25000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.005
-Array size: 26000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.005
-Array size: 27000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.006
-Array size: 28000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.005
-Array size: 29000 C quick-sort time elapsed: 0.004 C++ quick-sort time elapsed: 0.007
-Array size: 30000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.006
-Array size: 31000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.007
-Array size: 32000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.007
-Array size: 33000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.006
-Array size: 34000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.006
-Array size: 35000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.007
-Array size: 36000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.007
-Array size: 37000 C quick-sort time elapsed: 0.006 C++ quick-sort time elapsed: 0.008
-Array size: 38000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.008
-Array size: 39000 C quick-sort time elapsed: 0.006 C++ quick-sort time elapsed: 0.007
-Array size: 40000 C quick-sort time elapsed: 0.006 C++ quick-sort time elapsed: 0.008
-Array size: 41000 C quick-sort time elapsed: 0.006 C++ quick-sort time elapsed: 0.008
-Array size: 42000 C quick-sort time elapsed: 0.005 C++ quick-sort time elapsed: 0.008
-Array size: 43000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.008
-Array size: 44000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.009
-Array size: 45000 C quick-sort time elapsed: 0.006 C++ quick-sort time elapsed: 0.009
-Array size: 46000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.009
-Array size: 47000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.009
-Array size: 48000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.009
-Array size: 49000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.01
-Array size: 50000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.01
-Array size: 51000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.009
-Array size: 52000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.01
-Array size: 53000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.01
-Array size: 54000 C quick-sort time elapsed: 0.007 C++ quick-sort time elapsed: 0.011
-Array size: 55000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.011
-Array size: 56000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.011
-Array size: 57000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.011
-Array size: 58000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.012
-Array size: 59000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.012
-Array size: 60000 C quick-sort time elapsed: 0.009 C++ quick-sort time elapsed: 0.011
-Array size: 61000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.011
-Array size: 62000 C quick-sort time elapsed: 0.008 C++ quick-sort time elapsed: 0.013
-Array size: 63000 C quick-sort time elapsed: 0.009 C++ quick-sort time elapsed: 0.012
-Array size: 64000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.013
-Array size: 65000 C quick-sort time elapsed: 0.009 C++ quick-sort time elapsed: 0.013
-Array size: 66000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.013
-Array size: 67000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.013
-Array size: 68000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.014
-Array size: 69000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.014
-Array size: 70000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.014
-Array size: 71000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.014
-Array size: 72000 C quick-sort time elapsed: 0.011 C++ quick-sort time elapsed: 0.014
-Array size: 73000 C quick-sort time elapsed: 0.011 C++ quick-sort time elapsed: 0.014
-Array size: 74000 C quick-sort time elapsed: 0.01 C++ quick-sort time elapsed: 0.015
-Array size: 75000 C quick-sort time elapsed: 0.011 C++ quick-sort time elapsed: 0.015
-Array size: 76000 C quick-sort time elapsed: 0.011 C++ quick-sort time elapsed: 0.015
-Array size: 77000 C quick-sort time elapsed: 0.011 C++ quick-sort time elapsed: 0.016
-Array size: 78000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.017
-Array size: 79000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.017
-Array size: 80000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.017
-Array size: 81000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.018
-Array size: 82000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.017
-Array size: 83000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.018
-Array size: 84000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.016
-Array size: 85000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.018
-Array size: 86000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.019
-Array size: 87000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.018
-Array size: 88000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.017
-Array size: 89000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.017
-Array size: 90000 C quick-sort time elapsed: 0.012 C++ quick-sort time elapsed: 0.018
-Array size: 91000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.018
-Array size: 92000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.019
-Array size: 93000 C quick-sort time elapsed: 0.013 C++ quick-sort time elapsed: 0.019
-Array size: 94000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.019
-Array size: 95000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.019
-Array size: 96000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.019
-Array size: 97000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.02
-Array size: 98000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.02
-Array size: 99000 C quick-sort time elapsed: 0.015 C++ quick-sort time elapsed: 0.02
-Array size: 100000 C quick-sort time elapsed: 0.014 C++ quick-sort time elapsed: 0.02
+Из графика видно, что при одинаковых размерах массива функция C qsort работает быстрее, чем алгоритм C++ sort. Хоть и средняя сложность у обоих O(n*logn).
+Array size | C quick-sort time | C++ quick-sort time | 
+   10000             0.005              0.006
+   20000             0.01               0.013
+   30000             0.015              0.021
+   40000             0.021              0.025
+   50000             0.014              0.017
+   60000             0.011              0.016
+   70000             0.012              0.018
+   80000             0.013              0.018
+   90000             0.014              0.021
+  100000             0.017              0.023
+  110000             0.016              0.024
+  120000             0.018              0.027
+  130000             0.02               0.031
+  140000             0.021              0.03
+  150000             0.023              0.042
+  160000             0.026              0.041
+  170000             0.033              0.04
+  180000             0.03               0.044
+  190000             0.032              0.046
+  200000             0.032              0.048
+  210000             0.036              0.057
+  220000             0.037              0.051
+  230000             0.042              0.057
+  240000             0.039              0.063
+  250000             0.039              0.06
+  260000             0.04               0.069
+  270000             0.045              0.066
+  280000             0.045              0.067
+  290000             0.043              0.065
+  300000             0.046              0.069
+  310000             0.044              0.071
+  320000             0.046              0.073
+  330000             0.049              0.082
+  340000             0.049              0.083
+  350000             0.054              0.087
+  360000             0.055              0.084
+  370000             0.055              0.088
+  380000             0.057              0.089
+  390000             0.056              0.091
+  400000             0.064              0.1
+  410000             0.065              0.106
+  420000             0.065              0.098
+  430000             0.061              0.107
+  440000             0.062              0.103
+  450000             0.064              0.104
+  460000             0.069              0.12
+  470000             0.068              0.113
+  480000             0.07               0.116
+  490000             0.072              0.114
+  500000             0.072              0.118
