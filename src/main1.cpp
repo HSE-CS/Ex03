@@ -25,7 +25,7 @@ int main() {
     srand(time(nullptr));
 	
 	
-	cout << n << '\t' << "C quick-sort time" << '\t' << "C++ quick-sort time" << endl;
+	cout << 'n' << '\t' << "C quick-sort time" << '\t' << "C++ quick-sort time" << endl;
 	
 	for (int i = 4000; i <= 200000; i += 4000) {
 		
