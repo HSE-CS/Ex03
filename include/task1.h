@@ -1,7 +1,11 @@
 #ifndef TASK1_H
 #define TASK1_H
 
-
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <cstdlib>
+#include <ctime>
 
 const size_t LARGE_SIZE = 100000;
 
