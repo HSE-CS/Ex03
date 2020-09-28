@@ -12,12 +12,8 @@
 #include <iostream>
  
 int main() {
-    int* arr;
-    int* arr_copy;
-    arr = (int*)malloc(sizeof(int)*LARGE_SIZE);
-    arr_copy = (int*)malloc(sizeof(int)*LARGE_SIZE);
-    //int arr[LARGE_SIZE];
-    //int arr_copy[LARGE_SIZE];
+    int arr[LARGE_SIZE];
+    int arr_copy[LARGE_SIZE];
     // Рандомизация по таймеру
     srand(time(nullptr));
     // генерируем случайные данные
