@@ -1,0 +1,298 @@
+2000
+C quick-sort time elapsed: 0.118
+C++ quick-sort time elapsed: 0.386
+
+4000
+C quick-sort time elapsed: 0.113
+C++ quick-sort time elapsed: 0.363
+
+6000
+C quick-sort time elapsed: 0.103
+C++ quick-sort time elapsed: 0.384
+
+8000
+C quick-sort time elapsed: 0.109
+C++ quick-sort time elapsed: 0.405
+
+10000
+C quick-sort time elapsed: 0.124
+C++ quick-sort time elapsed: 0.576
+
+12000
+C quick-sort time elapsed: 0.179
+C++ quick-sort time elapsed: 0.431
+
+14000
+C quick-sort time elapsed: 0.139
+C++ quick-sort time elapsed: 0.387
+
+16000
+C quick-sort time elapsed: 0.11
+C++ quick-sort time elapsed: 0.382
+
+18000
+C quick-sort time elapsed: 0.107
+C++ quick-sort time elapsed: 0.391
+
+20000
+C quick-sort time elapsed: 0.105
+C++ quick-sort time elapsed: 0.395
+
+22000
+C quick-sort time elapsed: 0.108
+C++ quick-sort time elapsed: 0.373
+
+24000
+C quick-sort time elapsed: 0.106
+C++ quick-sort time elapsed: 0.381
+
+26000
+C quick-sort time elapsed: 0.11
+C++ quick-sort time elapsed: 0.39
+
+28000
+C quick-sort time elapsed: 0.109
+C++ quick-sort time elapsed: 0.464
+
+30000
+C quick-sort time elapsed: 0.197
+C++ quick-sort time elapsed: 0.382
+
+32000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.379
+
+34000
+C quick-sort time elapsed: 0.105
+C++ quick-sort time elapsed: 0.385
+
+36000
+C quick-sort time elapsed: 0.108
+C++ quick-sort time elapsed: 0.38
+
+38000
+C quick-sort time elapsed: 0.106
+C++ quick-sort time elapsed: 0.396
+
+40000
+C quick-sort time elapsed: 0.105
+C++ quick-sort time elapsed: 0.376
+
+42000
+C quick-sort time elapsed: 0.105
+C++ quick-sort time elapsed: 0.381
+
+44000
+C quick-sort time elapsed: 0.124
+C++ quick-sort time elapsed: 0.392
+
+46000
+C quick-sort time elapsed: 0.113
+C++ quick-sort time elapsed: 0.427
+
+48000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.427
+
+50000
+C quick-sort time elapsed: 0.126
+C++ quick-sort time elapsed: 0.409
+
+52000
+C quick-sort time elapsed: 0.114
+C++ quick-sort time elapsed: 0.375
+
+54000
+C quick-sort time elapsed: 0.107
+C++ quick-sort time elapsed: 0.375
+
+56000
+C quick-sort time elapsed: 0.102
+C++ quick-sort time elapsed: 0.379
+
+58000
+C quick-sort time elapsed: 0.103
+C++ quick-sort time elapsed: 0.384
+
+60000
+C quick-sort time elapsed: 0.111
+C++ quick-sort time elapsed: 0.375
+
+62000
+C quick-sort time elapsed: 0.103
+C++ quick-sort time elapsed: 0.373
+
+64000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.374
+
+66000
+C quick-sort time elapsed: 0.108
+C++ quick-sort time elapsed: 0.408
+
+68000
+C quick-sort time elapsed: 0.13
+C++ quick-sort time elapsed: 0.534
+
+70000
+C quick-sort time elapsed: 0.122
+C++ quick-sort time elapsed: 0.441
+
+72000
+C quick-sort time elapsed: 0.11
+C++ quick-sort time elapsed: 0.403
+
+74000
+C quick-sort time elapsed: 0.105
+C++ quick-sort time elapsed: 0.405
+
+76000
+C quick-sort time elapsed: 0.102
+C++ quick-sort time elapsed: 0.396
+
+78000
+C quick-sort time elapsed: 0.136
+C++ quick-sort time elapsed: 0.405
+
+80000
+C quick-sort time elapsed: 0.109
+C++ quick-sort time elapsed: 0.381
+
+82000
+C quick-sort time elapsed: 0.102
+C++ quick-sort time elapsed: 0.396
+
+84000
+C quick-sort time elapsed: 0.103
+C++ quick-sort time elapsed: 0.38
+
+86000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.428
+
+88000
+C quick-sort time elapsed: 0.101
+C++ quick-sort time elapsed: 0.383
+
+90000
+C quick-sort time elapsed: 0.102
+C++ quick-sort time elapsed: 0.374
+
+92000
+C quick-sort time elapsed: 0.106
+C++ quick-sort time elapsed: 0.38
+
+94000
+C quick-sort time elapsed: 0.128
+C++ quick-sort time elapsed: 0.518
+
+96000
+C quick-sort time elapsed: 0.116
+C++ quick-sort time elapsed: 0.393
+
+98000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.396
+
+100000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.378
+
+102000
+C quick-sort time elapsed: 0.102
+C++ quick-sort time elapsed: 0.396
+
+104000
+C quick-sort time elapsed: 0.103
+C++ quick-sort time elapsed: 0.388
+
+106000
+C quick-sort time elapsed: 0.107
+C++ quick-sort time elapsed: 0.43
+
+108000
+C quick-sort time elapsed: 0.116
+C++ quick-sort time elapsed: 0.453
+
+110000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.375
+
+112000
+C quick-sort time elapsed: 0.099
+C++ quick-sort time elapsed: 0.375
+
+114000
+C quick-sort time elapsed: 0.101
+C++ quick-sort time elapsed: 0.372
+
+116000
+C quick-sort time elapsed: 0.101
+C++ quick-sort time elapsed: 0.364
+
+118000
+C quick-sort time elapsed: 0.1
+C++ quick-sort time elapsed: 0.377
+
+{
+x;y1;y2
+2000;0.169;0.446
+4000;0.15;0.448
+6000;0.132;0.46
+8000;0.156;0.57
+10000;0.134;0.48
+12000;0.13;0.451
+14000;0.135;0.504
+16000;0.126;0.461
+18000;0.129;0.472
+20000;0.132;0.496
+22000;0.131;0.43
+24000;0.148;0.444
+26000;0.138;0.464
+28000;0.125;0.436
+30000;0.123;0.442
+32000;0.144;0.568
+34000;0.182;0.636
+36000;0.162;0.552
+38000;0.132;0.475
+40000;0.137;0.502
+42000;0.14;0.422
+44000;0.128;0.445
+46000;0.155;0.489
+48000;0.129;0.446
+50000;0.136;0.435
+52000;0.121;0.38
+54000;0.113;0.373
+56000;0.113;0.391
+58000;0.112;0.411
+60000;0.137;0.395
+62000;0.111;0.375
+64000;0.109;0.401
+66000;0.112;0.397
+68000;0.113;0.365
+70000;0.119;0.423
+72000;0.128;0.402
+74000;0.113;0.381
+76000;0.108;0.36
+78000;0.109;0.392
+80000;0.122;0.381
+82000;0.111;0.389
+84000;0.112;0.38
+86000;0.118;0.389
+88000;0.131;0.538
+90000;0.144;0.421
+92000;0.122;0.393
+94000;0.125;0.384
+96000;0.11;0.393
+98000;0.109;0.39
+100000;0.126;0.401
+102000;0.12;0.397
+104000;0.116;0.379
+106000;0.115;0.421
+108000;0.11;0.43
+110000;0.111;0.371
+112000;0.111;0.377
+114000;0.113;0.397
+116000;0.122;0.378
+118000;0.118;0.388
+}
