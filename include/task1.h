@@ -12,7 +12,7 @@
 
 using namespace std;
 
-const unsigned int LARGE_SIZE = 200000;
+const unsigned int LARGE_SIZE = 500000;
 
 struct rnd {
     unsigned int operator()() {

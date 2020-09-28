@@ -7,7 +7,7 @@ int main() {
     int* arr_copy = new int[LARGE_SIZE];
     unsigned int step[50];
     double time_c[50], time_cpp[50];
-    unsigned int b=0;
+    unsigned int b=10000;
 
     srand(time(nullptr));
 
@@ -26,7 +26,7 @@ int main() {
         sort(arr_copy, arr_copy + b);
         time_cpp[i]=static_cast<double>(clock() - start) / CLOCKS_PER_SEC;
 
-        b+=3000;
+        b+=10000;
     }
 
     cout << "n\tC\tC++" << endl;
