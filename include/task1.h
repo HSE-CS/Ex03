@@ -2,7 +2,7 @@
 #define TASK1_H
 using namespace std;
 
-const size_t LARGE_SIZE = 270000;
+const size_t LARGE_SIZE = 100000;
 
 #include <cstdlib>
 
