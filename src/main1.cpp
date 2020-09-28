@@ -26,7 +26,6 @@ int main() {
     // засекаем врем€
     time_t start = clock();
     // выполн€ем сортировку, использу€ функцию qsort
-    cout << "Number of elements: " << LARGE_SIZE << "\n";
     qsort(arr, LARGE_SIZE, sizeof(int), comp);
     cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
     // снова засекаем врем€

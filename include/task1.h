@@ -8,7 +8,6 @@ const size_t LARGE_SIZE = 100000;
 
 struct rnd {
     int operator()() {
-       // return rand() % LARGE_SIZE;
         return rand() % LARGE_SIZE;
     }
 };
