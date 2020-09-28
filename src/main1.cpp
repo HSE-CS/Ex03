@@ -8,35 +8,22 @@ using namespace std;
 
 
 int main() {
-    cout << "C quick-sort" << endl;
-    for (int step = 0; step < 81; step++) {
-        int* arr = new int[LARGE_SIZE + STEP * step];
-        // Рандомизация по таймеру
-        srand(time(nullptr));
-        // генерируем случайные данные
-        generate(arr, arr + LARGE_SIZE + STEP * step, rnd());\
-        // засекаем время
-        double start = clock();
-        // выполняем сортировку, используя функцию qsort
-        qsort(arr, LARGE_SIZE + STEP * step, sizeof(int), comp);
-        double time = (clock() - start) / CLOCKS_PER_SEC;
-        cout << setw(2) << step + 1 << '|' << setw(7) <<  LARGE_SIZE + STEP * step << '|' << time << "\n";
-        delete []arr;
-    }
-    cout << "------------------------------" << "\n" << "C++ quick-sort" << endl;;
-    for (int step = 0; step < 81; step++) {
-        int* arr = new int[LARGE_SIZE + STEP * step];
-        // Рандомизация по таймеру
-        srand(time(nullptr));
-        // генерируем случайные данные
-        generate(arr, arr + LARGE_SIZE + STEP * step, rnd()); \
-        // засекаем время
-        double start = clock();
-        // выполняем сортировку, используя алгоритм С++
-        sort(arr, arr + LARGE_SIZE + STEP * step);
-        double time = (clock() - start) / CLOCKS_PER_SEC;
-        cout << step + 1 << '|' << LARGE_SIZE + STEP * step << '|' << time << "\n";
-        delete[]arr;
-    }
+    int arr[LARGE_SIZE];
+    int arr_copy[LARGE_SIZE];
+    // Рандомизация по таймеру
+    srand(time(nullptr));
+    // генерируем случайные данные
+    generate(arr, arr + LARGE_SIZE, rnd());
+    copy(arr, arr + LARGE_SIZE, arr_copy);
+    // засекаем время
+    time_t start = clock();
+    // выполняем сортировку, используя функцию qsort
+    qsort(arr, LARGE_SIZE, sizeof(int), comp);
+    cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+    // снова засекаем время
+    start = clock();
+    // выполняем сортировку, используя алгоритм С++
+    sort(arr_copy, arr_copy + LARGE_SIZE);
+    cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
     return 0;
 }
