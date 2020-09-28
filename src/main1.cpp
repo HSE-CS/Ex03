@@ -11,6 +11,7 @@ int main() {
     int n;
     cin >> n;
     int size = 100;
+
     for (int i = 0; i < n; i++)
     {
       // Рандомизация по таймеру
@@ -22,13 +23,15 @@ int main() {
       time_t start = clock();
       // выполняем сортировку, используя функцию qsort
       qsort(arr, size, sizeof(int), comp);
-      cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+      // C, C++
+      cout <<size << " " <<  static_cast<double>(clock() - start) / CLOCKS_PER_SEC << " " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
       // снова засекаем время
       start = clock();
       // выполняем сортировку, используя алгоритм С++
       sort(arr_copy, arr_copy + size);
-      cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-      cout << "\n";
+      // cout  << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+      // cout << "\n";
+      size = size + 10000;
     }
 
     return 0;
