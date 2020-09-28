@@ -18,7 +18,7 @@ int main() {
 	int arr[LARGE_SIZE];
 	int arr_copy[LARGE_SIZE];
 	srand(time(nullptr));	// Рандомизация по таймеру
-	for (int i = 10000; i < LARGE_SIZE; i++) {
+	for (int i = 10000; i < LARGE_SIZE; i += 1000) {
 		generate(arr, arr + i, rnd());	// генерируем случайные данные
 		copy(arr, arr + i, arr_copy);
 		time_t start = clock();	// засекаем время
@@ -26,7 +26,7 @@ int main() {
 		cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";	// снова засекаем время
 		start = clock();	// выполняем сортировку, используя алгоритм С++
 		sort(arr_copy, arr_copy + LARGE_SIZE);
-		cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+		cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n\n";
 	}
 	return 0;
 }
