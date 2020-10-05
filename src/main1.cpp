@@ -17,12 +17,12 @@ int main() {
         time_t start = clock();
         // выполн€ем сортировку, использу€ функцию qsort
         qsort( arr, size, sizeof( int ), comp );
-        cout << "C quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
+        cout << size << " " << "C quick-sort time: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << " ";
         // снова засекаем врем€
         start = clock();
         // выполн€ем сортировку, использу€ алгоритм —++
         sort( arr_copy, arr_copy + size );
-        cout << "C++ quick-sort time elapsed: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
+        cout << "C++ quick-sort time: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << "\n";
     }
     return 0;
 }
