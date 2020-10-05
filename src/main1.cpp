@@ -17,7 +17,7 @@ int main() {
         time_t start = clock();
         // выполн€ем сортировку, использу€ функцию qsort
         qsort( arr, size, sizeof( int ), comp );
-        cout << size << " " << "C quick-sort time: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << " ";
+        cout << "size:" << size << " " << "C quick-sort time: " << static_cast<double>( clock() - start ) / CLOCKS_PER_SEC << " ";
         // снова засекаем врем€
         start = clock();
         // выполн€ем сортировку, использу€ алгоритм —++
