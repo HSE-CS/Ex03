@@ -9,22 +9,20 @@ using namespace std;
 int main() {
     int arr[LARGE_SIZE];
     int arr_copy[LARGE_SIZE];
-    // Р Р°РЅРґРѕРјРёР·Р°С†РёСЏ РїРѕ С‚Р°Р№РјРµСЂСѓ
+    // Рандомизация по таймеру
     srand(time(nullptr));
-    for (int i = 2000; i < LARGE_SIZE; i += 2000) {
-        // РіРµРЅРµСЂРёСЂСѓРµРј СЃР»СѓС‡Р°Р№РЅС‹Рµ РґР°РЅРЅС‹Рµ
-        generate(arr, arr + LARGE_SIZE, rnd());
-        copy(arr, arr + LARGE_SIZE, arr_copy);
-        // Р·Р°СЃРµРєР°РµРј РІСЂРµРјСЏ
-        time_t start = clock();
-        // РІС‹РїРѕР»РЅСЏРµРј СЃРѕСЂС‚РёСЂРѕРІРєСѓ, РёСЃРїРѕР»СЊР·СѓСЏ С„СѓРЅРєС†РёСЋ qsort
-        qsort(arr, LARGE_SIZE, sizeof(int), comp);
-        cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << ";";
-        // СЃРЅРѕРІР° Р·Р°СЃРµРєР°РµРј РІСЂРµРјСЏ
-        start = clock();
-        // РІС‹РїРѕР»РЅСЏРµРј СЃРѕСЂС‚РёСЂРѕРІРєСѓ, РёСЃРїРѕР»СЊР·СѓСЏ Р°Р»РіРѕСЂРёС‚Рј РЎ++
-        sort(arr_copy, arr_copy + LARGE_SIZE);
-        cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-    }
+    // генерируем случайные данные
+    generate(arr, arr + LARGE_SIZE, rnd());
+    copy(arr, arr + LARGE_SIZE, arr_copy);
+    // засекаем время
+    time_t start = clock();
+    // выполняем сортировку, используя функцию qsort
+    qsort(arr, LARGE_SIZE, sizeof(int), comp);
+    cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << ";";
+    // снова засекаем время
+    start = clock();
+    // выполняем сортировку, используя алгоритм С++
+    sort(arr_copy, arr_copy + LARGE_SIZE);
+    cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
     return 0;
 }
