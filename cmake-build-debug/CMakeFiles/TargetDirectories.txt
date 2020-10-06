@@ -1,0 +1,4 @@
+/home/toliman/Projects/HSE-CS/EX03/Ex03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/toliman/Projects/HSE-CS/EX03/Ex03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/toliman/Projects/HSE-CS/EX03/Ex03/cmake-build-debug/CMakeFiles/task1.dir
+/home/toliman/Projects/HSE-CS/EX03/Ex03/cmake-build-debug/CMakeFiles/task1_lib.dir

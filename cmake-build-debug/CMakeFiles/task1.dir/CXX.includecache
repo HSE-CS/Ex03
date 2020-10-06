@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/task1.h
+cstdlib
+-
+
+/home/toliman/Projects/HSE-CS/EX03/Ex03/src/main1.cpp
+algorithm
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+vector
+-
+task1.h
+/home/toliman/Projects/HSE-CS/EX03/Ex03/src/task1.h
+
