@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/task1.h
+algorithm
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
+fstream
+-
+
+C:/Disk_D/My projects/C++/Ex03home/src/main1.cpp
+task1.h
+C:/Disk_D/My projects/C++/Ex03home/src/task1.h
+
