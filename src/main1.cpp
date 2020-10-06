@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <string.h>
 #include "task1.h"
 
 using namespace std;
