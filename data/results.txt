@@ -1,0 +1,201 @@
+С works faster than C++ in quick-sort. Tested from 1000 to 50000 size of arrays.
+
+Size of array: 1000
+C quick-sort time elapsed: 0.013
+C++ quick-sort time elapsed: 0.016
+
+Size of array: 2000
+C quick-sort time elapsed: 0.016
+C++ quick-sort time elapsed: 0.028
+
+Size of array: 3000
+C quick-sort time elapsed: 0.019
+C++ quick-sort time elapsed: 0.034
+
+Size of array: 4000
+C quick-sort time elapsed: 0.02
+C++ quick-sort time elapsed: 0.048
+
+Size of array: 5000
+C quick-sort time elapsed: 0.025
+C++ quick-sort time elapsed: 0.066
+
+Size of array: 6000
+C quick-sort time elapsed: 0.029
+C++ quick-sort time elapsed: 0.083
+
+Size of array: 7000
+C quick-sort time elapsed: 0.037
+C++ quick-sort time elapsed: 0.109
+
+Size of array: 8000
+C quick-sort time elapsed: 0.041
+C++ quick-sort time elapsed: 0.146
+
+Size of array: 9000
+C quick-sort time elapsed: 0.054
+C++ quick-sort time elapsed: 0.169
+
+Size of array: 10000
+C quick-sort time elapsed: 0.059
+C++ quick-sort time elapsed: 0.207
+
+Size of array: 11000
+C quick-sort time elapsed: 0.067
+C++ quick-sort time elapsed: 0.245
+
+Size of array: 12000
+C quick-sort time elapsed: 0.081
+C++ quick-sort time elapsed: 0.286
+
+Size of array: 13000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.322
+
+Size of array: 14000
+C quick-sort time elapsed: 0.093
+C++ quick-sort time elapsed: 0.344
+
+Size of array: 15000
+C quick-sort time elapsed: 0.093
+C++ quick-sort time elapsed: 0.338
+
+Size of array: 16000
+C quick-sort time elapsed: 0.091
+C++ quick-sort time elapsed: 0.352
+
+Size of array: 17000
+C quick-sort time elapsed: 0.089
+C++ quick-sort time elapsed: 0.338
+
+Size of array: 18000
+C quick-sort time elapsed: 0.095
+C++ quick-sort time elapsed: 0.333
+
+Size of array: 19000
+C quick-sort time elapsed: 0.089
+C++ quick-sort time elapsed: 0.329
+
+Size of array: 20000
+C quick-sort time elapsed: 0.092
+C++ quick-sort time elapsed: 0.328
+
+Size of array: 21000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.319
+
+Size of array: 22000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.327
+
+Size of array: 23000
+C quick-sort time elapsed: 0.088
+C++ quick-sort time elapsed: 0.324
+
+Size of array: 24000
+C quick-sort time elapsed: 0.104
+C++ quick-sort time elapsed: 0.334
+
+Size of array: 25000
+C quick-sort time elapsed: 0.085
+C++ quick-sort time elapsed: 0.317
+
+Size of array: 26000
+C quick-sort time elapsed: 0.083
+C++ quick-sort time elapsed: 0.306
+
+Size of array: 27000
+C quick-sort time elapsed: 0.083
+C++ quick-sort time elapsed: 0.303
+
+Size of array: 28000
+C quick-sort time elapsed: 0.081
+C++ quick-sort time elapsed: 0.303
+
+Size of array: 29000
+C quick-sort time elapsed: 0.084
+C++ quick-sort time elapsed: 0.3
+
+Size of array: 30000
+C quick-sort time elapsed: 0.084
+C++ quick-sort time elapsed: 0.291
+
+Size of array: 31000
+C quick-sort time elapsed: 0.082
+C++ quick-sort time elapsed: 0.291
+
+Size of array: 32000
+C quick-sort time elapsed: 0.084
+C++ quick-sort time elapsed: 0.295
+
+Size of array: 33000
+C quick-sort time elapsed: 0.084
+C++ quick-sort time elapsed: 0.289
+
+Size of array: 34000
+C quick-sort time elapsed: 0.085
+C++ quick-sort time elapsed: 0.29
+
+Size of array: 35000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.297
+
+Size of array: 36000
+C quick-sort time elapsed: 0.08
+C++ quick-sort time elapsed: 0.29
+
+Size of array: 37000
+C quick-sort time elapsed: 0.082
+C++ quick-sort time elapsed: 0.288
+
+Size of array: 38000
+C quick-sort time elapsed: 0.08
+C++ quick-sort time elapsed: 0.288
+
+Size of array: 39000
+C quick-sort time elapsed: 0.081
+C++ quick-sort time elapsed: 0.291
+
+Size of array: 40000
+C quick-sort time elapsed: 0.082
+C++ quick-sort time elapsed: 0.292
+
+Size of array: 41000
+C quick-sort time elapsed: 0.081
+C++ quick-sort time elapsed: 0.287
+
+Size of array: 42000
+C quick-sort time elapsed: 0.08
+C++ quick-sort time elapsed: 0.286
+
+Size of array: 43000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.292
+
+Size of array: 44000
+C quick-sort time elapsed: 0.085
+C++ quick-sort time elapsed: 0.288
+
+Size of array: 45000
+C quick-sort time elapsed: 0.084
+C++ quick-sort time elapsed: 0.287
+
+Size of array: 46000
+C quick-sort time elapsed: 0.081
+C++ quick-sort time elapsed: 0.29
+
+Size of array: 47000
+C quick-sort time elapsed: 0.085
+C++ quick-sort time elapsed: 0.292
+
+Size of array: 48000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.301
+
+Size of array: 49000
+C quick-sort time elapsed: 0.082
+C++ quick-sort time elapsed: 0.299
+
+Size of array: 50000
+C quick-sort time elapsed: 0.086
+C++ quick-sort time elapsed: 0.296
