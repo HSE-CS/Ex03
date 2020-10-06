@@ -9,7 +9,7 @@ env:
     - CXX_FLAGS="-Wall -pedantic -Werror -Wno-variadic-macros -Wno-long-long -Wno-shadow"
     # Misc
     - RUN_TESTS=false
-    - COVERAGE=false
+    - COVERAGE=true
 
 matrix:
   include:
