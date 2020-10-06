@@ -1,0 +1,257 @@
+N=1..50(лень было считать и удалять лишнее для больших чисел, делал через gitbush)
+С сортировщик работает где-то в 2 раза медленее С++, в некоторых случаях их скорости сравниваются, но при опирировании большими числами
+С++ обычно обгоняет уже в 3-4 раза, для одного из чисел в пределах 500k-1kk разница была в 8 раз(все это поверхностные наблюдения,
+для рандомно введеных значений)
+график построен по значениям больших чисел
+
+
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.001000,
+C++ quick-sort time elapsed: 
+0.000000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.001000,
+
+C quick-sort time elapsed: 
+0.002000,
+C++ quick-sort time elapsed: 
+0.000000,
