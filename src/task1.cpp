@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const size_t LARGE_SIZE = 100000;
+
 
 struct rnd {
     int operator()() {
