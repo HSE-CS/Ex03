@@ -6,6 +6,13 @@
 
 using namespace std;
 
+struct rnd {
+    int operator()() {
+        return rand() % LARGE_SIZE;
+    }
+};
+
+
 int main() {
     int arr[LARGE_SIZE];
     int arr_copy[LARGE_SIZE];
