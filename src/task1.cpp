@@ -8,7 +8,7 @@ using namespace std;
 
 
 
-struct rnd {
+struct rnd() {
     int operator()() {
         return rand() % LARGE_SIZE;
     }
