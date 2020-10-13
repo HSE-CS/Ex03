@@ -1,0 +1,202 @@
+
+Функция Qsort работает примерно в 3 раза быстрее функции Sort, средняя сложность обоих алгоритмов - O(N*log(N).
+
+Number of elements: 1000000
+C quick-sort time elapsed: 1.077
+C++ quick-sort time elapsed: 3.528
+
+Number of elements: 990000
+C quick-sort time elapsed: 1.051
+C++ quick-sort time elapsed: 3.416
+
+Number of elements: 980000
+C quick-sort time elapsed: 1.093
+C++ quick-sort time elapsed: 3.37
+
+Number of elements: 970000
+C quick-sort time elapsed: 0.95
+C++ quick-sort time elapsed: 3.289
+
+Number of elements: 950000
+C quick-sort time elapsed: 0.99
+C++ quick-sort time elapsed: 3.294
+
+Number of elements: 900000
+C quick-sort time elapsed: 0.925
+C++ quick-sort time elapsed: 2.932
+
+Number of elements: 880000
+C quick-sort time elapsed: 0.879
+C++ quick-sort time elapsed: 2.907
+
+Number of elements: 850000
+C quick-sort time elapsed: 0.817
+C++ quick-sort time elapsed: 2.939
+
+Number of elements: 830000
+C quick-sort time elapsed: 0.828
+C++ quick-sort time elapsed: 2.815
+
+Number of elements: 810000
+C quick-sort time elapsed: 0.792
+C++ quick-sort time elapsed: 2.823
+
+Number of elements: 800000
+C quick-sort time elapsed: 0.864
+C++ quick-sort time elapsed: 2.702
+
+Number of elements: 750000
+C quick-sort time elapsed: 0.765
+C++ quick-sort time elapsed: 2.872
+
+Number of elements: 700000
+C quick-sort time elapsed: 0.712
+C++ quick-sort time elapsed: 2.369
+
+Number of elements: 650000
+C quick-sort time elapsed: 0.682
+C++ quick-sort time elapsed: 2.297
+
+Number of elements: 600000
+C quick-sort time elapsed: 0.598
+C++ quick-sort time elapsed: 2.045
+
+Number of elements: 550000
+C quick-sort time elapsed: 0.565
+C++ quick-sort time elapsed: 2.037
+
+Number of elements: 500000
+C quick-sort time elapsed: 0.524
+C++ quick-sort time elapsed: 1.792
+
+Number of elements: 450000
+C quick-sort time elapsed: 0.447
+C++ quick-sort time elapsed: 1.691
+
+Number of elements: 400000
+C quick-sort time elapsed: 0.434
+C++ quick-sort time elapsed: 1.504
+
+Number of elements: 370000
+C quick-sort time elapsed: 0.37
+C++ quick-sort time elapsed: 1.338
+
+Number of elements: 350000
+C quick-sort time elapsed: 0.363
+C++ quick-sort time elapsed: 1.336
+
+Number of elements: 330000
+C quick-sort time elapsed: 0.335
+C++ quick-sort time elapsed: 1.256
+
+Number of elements: 300000
+C quick-sort time elapsed: 0.311
+C++ quick-sort time elapsed: 1.092
+
+Number of elements: 270000
+C quick-sort time elapsed: 0.272
+C++ quick-sort time elapsed: 1.078
+
+Number of elements: 250000
+C quick-sort time elapsed: 0.243
+C++ quick-sort time elapsed: 1.021
+
+Number of elements: 200000
+C quick-sort time elapsed: 0.265
+C++ quick-sort time elapsed: 0.849
+
+Number of elements: 150000
+C quick-sort time elapsed: 0.188
+C++ quick-sort time elapsed: 0.548
+
+Number of elements: 100000
+C quick-sort time elapsed: 0.132
+C++ quick-sort time elapsed: 0.364
+
+Number of elements: 90000
+C quick-sort time elapsed: 0.099
+C++ quick-sort time elapsed: 0.383
+
+Number of elements: 85000
+C quick-sort time elapsed: 0.095
+C++ quick-sort time elapsed: 0.399
+
+Number of elements: 80000
+C quick-sort time elapsed: 0.092
+C++ quick-sort time elapsed: 0.287
+
+Number of elements: 75000
+C quick-sort time elapsed: 0.094
+C++ quick-sort time elapsed: 0.307
+
+Number of elements: 70000
+C quick-sort time elapsed: 0.073
+C++ quick-sort time elapsed: 0.264
+
+Number of elements: 65000
+C quick-sort time elapsed: 0.074
+C++ quick-sort time elapsed: 0.258
+
+Number of elements: 60000
+C quick-sort time elapsed: 0.088
+C++ quick-sort time elapsed: 0.243
+
+Number of elements: 55000
+C quick-sort time elapsed: 0.072
+C++ quick-sort time elapsed: 0.188
+
+Number of elements: 50000
+C quick-sort time elapsed: 0.061
+C++ quick-sort time elapsed: 0.199
+
+Number of elements: 45000
+C quick-sort time elapsed: 0.052
+C++ quick-sort time elapsed: 0.153
+
+Number of elements: 40000
+C quick-sort time elapsed: 0.055
+C++ quick-sort time elapsed: 0.147
+
+Number of elements: 35000
+C quick-sort time elapsed: 0.035
+C++ quick-sort time elapsed: 0.123
+
+Number of elements: 30000
+C quick-sort time elapsed: 0.03
+C++ quick-sort time elapsed: 0.115
+
+Number of elements: 25000
+C quick-sort time elapsed: 0.022
+C++ quick-sort time elapsed: 0.084
+
+Number of elements: 20000
+C quick-sort time elapsed: 0.022
+C++ quick-sort time elapsed: 0.079
+
+Number of elements: 15000
+C quick-sort time elapsed: 0.02
+C++ quick-sort time elapsed: 0.056
+
+Number of elements: 10000
+C quick-sort time elapsed: 0.009
+C++ quick-sort time elapsed: 0.03
+
+Number of elements: 9000
+C quick-sort time elapsed: 0.008
+C++ quick-sort time elapsed: 0.026
+
+Number of elements: 8000
+C quick-sort time elapsed: 0.011
+C++ quick-sort time elapsed: 0.043
+
+Number of elements: 7000
+C quick-sort time elapsed: 0.009
+C++ quick-sort time elapsed: 0.032
+
+Number of elements: 6000
+C quick-sort time elapsed: 0.008
+C++ quick-sort time elapsed: 0.026
+
+Number of elements: 5000
+C quick-sort time elapsed: 0.007
+C++ quick-sort time elapsed: 0.023
