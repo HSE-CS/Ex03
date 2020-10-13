@@ -14,21 +14,29 @@ int comp(const void* a, const void* b) {
 }
 void result()
 {
-    int arr[LARGE_SIZE];
-    int arr_copy[LARGE_SIZE];
+    unsigned int* arr;
+    unsigned int* arr_copy;
+    arr = (unsigned int*)malloc(sizeof(unsigned int) * LARGE_SIZE);
+    arr_copy = (unsigned int*)malloc(sizeof(unsigned int) * LARGE_SIZE);
+    //int arr[LARGE_SIZE];
+    //int arr_copy[LARGE_SIZE];
     // Рандомизация по таймеру
-    srand(time(nullptr));
-    // генерируем случайные данные
-    generate(arr, arr + LARGE_SIZE, rnd());
-    copy(arr, arr + LARGE_SIZE, arr_copy);
-    // засекаем время
-    time_t start = clock();
-    // выполняем сортировку, используя функцию qsort
-    qsort(arr, LARGE_SIZE, sizeof(int), comp);
-    cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-    // снова засекаем время
-    start = clock();
-    // выполняем сортировку, используя алгоритм С++
-    sort(arr_copy, arr_copy + LARGE_SIZE);
-    cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+    for (unsigned int size = 100000; size <= LARGE_SIZE; size += 25000)
+    {
+        printf("size=%d\n", size);
+        srand(time(nullptr));
+        // генерируем случайные данные
+        generate(arr, arr + size, rnd());
+        copy(arr, arr + size, arr_copy);
+        // засекаем время
+        time_t start = clock();
+        // выполняем сортировку, используя функцию qsort
+        qsort(arr, size, sizeof(int), comp);
+        cout << "C quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+        // снова засекаем время
+        start = clock();
+        // выполняем сортировку, используя алгоритм С++
+        sort(arr_copy, arr_copy + size);
+        cout << "C++ quick-sort time elapsed: " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
+    }
 }
