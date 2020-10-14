@@ -5,6 +5,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+using namespace std;
 
 const size_t LARGE_SIZE = 6000000;
 
