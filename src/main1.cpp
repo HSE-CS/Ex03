@@ -1,7 +1,3 @@
-#include <algorithm>
-#include <iostream>
-#include <cstdlib>
-#include <ctime>
 #include "../include/task1.h"
 
 int main() {
