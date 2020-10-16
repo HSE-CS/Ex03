@@ -3,8 +3,7 @@ using namespace std;
 
 int main() {
 	unsigned SIZE = 100000;
-	int n = 50;
-	for (int i = 0; i < n; ++i) {
+	for (int i = 0; i < 50; ++i) {
 		int arr[LARGE_SIZE];
 		int arr_copy[LARGE_SIZE];
 		// Рандомизация по таймеру
