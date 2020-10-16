@@ -1,28 +1,29 @@
 #include "task1.h"
+#include <fstream>
 using namespace std;
 
 int main() {
-	unsigned SIZE = 100000;
-	for (int i = 0; i < 50; ++i) {
-		int arr[LARGE_SIZE];
-		int arr_copy[LARGE_SIZE];
-		// Рандомизация по таймеру
+	//ofstream out("rezults.txt");
+	//out << "size   qsort    sort\n";
+	int arr[LARGE_SIZE];
+	int arr_copy[LARGE_SIZE];
+	unsigned size = 2000;
+	for (int i=0; i < 50; ++i) {
+		//out << size<<' ';
+		cout << size << " ";
 		srand(time(nullptr));
-		// генерируем случайные данные
-		generate(arr, arr + SIZE, rnd());
-		copy(arr, arr + SIZE, arr_copy);
-		// засекаем время
+		generate(arr, arr + size, rnd());
+		copy(arr, arr + size, arr_copy);
 		time_t start = clock();
-		// выполняем сортировку, используя функцию qsort
-		qsort(arr, SIZE, sizeof(int), comp);
-		cout << SIZE << " " << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << " ";
-		// снова засекаем время
+		qsort(arr, size, sizeof(int), comp);
+		//out << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << " ";
+		cout << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << " ";
 		start = clock();
-		// выполняем сортировку, используя алгоритм С++
-		sort(arr_copy, arr_copy + SIZE);
+		sort(arr_copy, arr_copy + size);
+		//out << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
 		cout << static_cast<double>(clock() - start) / CLOCKS_PER_SEC << "\n";
-		SIZE += 10000;
+		size += 2000;
+		//
 	}
 	return 0;
 }
-
