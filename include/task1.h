@@ -1,7 +1,7 @@
 #ifndef TASK1_H_INCLUDED
 #define TASK1_H_INCLUDED
 
-const size_t LARGE_SIZE = 200000;
+const int LARGE_SIZE = 200000;
 
 struct rnd {
     int operator()() {
